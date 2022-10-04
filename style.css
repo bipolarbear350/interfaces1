@@ -57,11 +57,33 @@ header {
 img {
   max-width: 50%;
   height: auto;
+  max-height: 30em;
   padding-left: 3em;
 }
 
 .body {
   background: linear-gradient(whitesmoke, #d3dfd7);
+}
+
+.storyBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em;
+}
+
+.boardPics {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+}
+
+.boardPics img {
+  max-width: 100%;
+  height: auto;
+  max-height: 95em;
+  padding: 0;
 }
 
 .textItems {
@@ -91,7 +113,8 @@ p {
 
 .divisor {
   font-size: 2em;
-  text-decoration: underline;
+  padding: .5em;
+text-decoration: underline;
 }
 
 
